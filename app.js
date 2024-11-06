@@ -24,11 +24,6 @@ function generateTenEmails() {
 }
 
 generateTenEmails();
-// console.log(userMails);
-
-// let listElement = document.createElement("li");
-// listElement.innerHTML = `userMails[2]`;
-// mailList.appendChild(listElement);
 
 buttonElement.addEventListener("click", () => {
   generateTenEmails();
